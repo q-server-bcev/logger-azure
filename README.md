@@ -6,36 +6,31 @@
 ### Authors: Billy Bunn, Vanessa Wei, Erin Trainor, Chris Merritt
 
 ### Links, Resources and Documentation
-* Message Queue 
+* Logger:
+  * [REPO](https://github.com/q-server-bcev/logger-azure)
   * [PR](https://github.com/401-advanced-javascript-401d29/lab-19-message-queue-server/pull/1)
   * [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19)
-  <!-- * [back-end](http://xyz.com) () -->
-  * [jsdoc](http://localhost:3000/docs) (All assignments)
 
 
-* File Writer
-
+* Server:
+  * [REPO](https://github.com/q-server-bcev/q-server-aws)
   * [PR](https://github.com/401-advanced-javascript-401d29/lab-19-file-writer/pull/1)
   * [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19-file-writer.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19-file-writer)
-  <!-- * [back-end](http://xyz.com) () -->
-  * [jsdoc](http://localhost:3000/docs) (All assignments)
 
 
-* API Server
-  <!-- * [PR](https://github.com/401-advanced-javascript-401d29/lab-19-message-queue-server/pull/1)
+* API Server:
+  * [REPO](https://github.com/q-server-bcev/api-server-heroku)
+  * [PR](https://github.com/401-advanced-javascript-401d29/lab-19-message-queue-server/pull/1)
   * [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19)
-  * [travis](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19) -->
-  <!-- * [back-end](http://xyz.com) () -->
-  <!-- * [jsdoc](http://localhost:3000/docs) (All assignments) -->
 
 #### Server:
 * Hosted on AWS: 
-* Link: [http://qserverawsbcev-env.g9ahyr3d7m.us-east-2.elasticbeanstalk.com/]
+* Link: [http://qserverawsbcev-env.g9ahyr3d7m.us-east-2.elasticbeanstalk.com/](http://qserverawsbcev-env.g9ahyr3d7m.us-east-2.elasticbeanstalk.com/)
 * Listens for: 'Create', 'Read', 'Update', 'Delete', 'save', 'error';
 
 #### API Server:
 * Hosted on Heroku:
-* Link: [https://api-server-401.herokuapp.com/]
+* Link: [https://api-server-401.herokuapp.com/](https://api-server-401.herokuapp.com/)
 * Endpoints:
   * `/signup`
   * `/signin`
@@ -47,7 +42,7 @@
 
 #### Logger:
 * Hosted on Azure:
-* Link: [https://q-logger-azure.azurewebsites.net]
+* Link: [https://q-logger-azure.azurewebsites.net](https://q-logger-azure.azurewebsites.net)
 * Creates a new namespace 'database'
 * Subscribes to the events: 'delete', 'update', 'read', 'create', 'error', 'save'.
 * Logs the event name and payload when heard.
