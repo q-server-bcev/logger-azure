@@ -9,19 +9,14 @@
 * Logger:
   * [REPO](https://github.com/q-server-bcev/logger-azure)
   * [PR](https://github.com/401-advanced-javascript-401d29/lab-19-message-queue-server/pull/1)
-  * [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19)
-
 
 * Server:
   * [REPO](https://github.com/q-server-bcev/q-server-aws)
   * [PR](https://github.com/401-advanced-javascript-401d29/lab-19-file-writer/pull/1)
-  * [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19-file-writer.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19-file-writer)
-
 
 * API Server:
   * [REPO](https://github.com/q-server-bcev/api-server-heroku)
   * [PR](https://github.com/401-advanced-javascript-401d29/lab-19-message-queue-server/pull/1)
-  * [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19)
 
 #### Server:
 * Hosted on AWS: 
@@ -46,6 +41,22 @@
 * Creates a new namespace 'database'
 * Subscribes to the events: 'delete', 'update', 'read', 'create', 'error', 'save'.
 * Logs the event name and payload when heard.
+
+We've pre-populated a few users with different permissions:
+* usher, the user
+* eddie, the editor
+* addie, the admin
+* susie, the superuser
+
+Here are some example requests to the API server (hosted on Heroku) using HTTPie:
+* To view all teams:
+`http https://api-server-401.herokuapp.com/api/v1/teams -a usher:usher`
+
+* To view all players:
+`http https://api-server-401.herokuapp.com/api/v1/players -a susie:susie`
+
+* To add a new team to the MongoDB:
+`echo '{"name":"kings", "city":"sacramento"}' | http post https://api-server-401.herokuapp.com/api/v1/teams -a addie:addie`
 
 ### Setup
 #### `.env` requirements
