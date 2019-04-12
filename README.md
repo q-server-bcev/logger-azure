@@ -9,19 +9,14 @@
 * Logger:
   * [REPO](https://github.com/q-server-bcev/logger-azure)
   * [PR](https://github.com/401-advanced-javascript-401d29/lab-19-message-queue-server/pull/1)
-  * [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19)
-
 
 * Server:
   * [REPO](https://github.com/q-server-bcev/q-server-aws)
   * [PR](https://github.com/401-advanced-javascript-401d29/lab-19-file-writer/pull/1)
-  * [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19-file-writer.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19-file-writer)
-
 
 * API Server:
   * [REPO](https://github.com/q-server-bcev/api-server-heroku)
   * [PR](https://github.com/401-advanced-javascript-401d29/lab-19-message-queue-server/pull/1)
-  * [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-19)
 
 #### Server:
 * Hosted on AWS: 
